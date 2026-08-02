@@ -151,6 +151,11 @@ transform:scale(1.15);
     font-size: 14px;
     margin-left: 10px;
 }
+.player button {
+    font-size: 11px;
+    padding: 3px 8px;
+    height: 28px;
+}
 footer{
 margin-top:60px;
 padding:30px;
