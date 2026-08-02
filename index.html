@@ -66,6 +66,23 @@ img{
 
 </div>
 
+<div class="player">
+    <button onclick="playRadio()">▶ Play</button>
+    <button onclick="stopRadio()">⏹ Stop</button>
+    <button onclick="location.reload()">🔄 Actualizar</button>
+    <span> Radio Mix El Bosque - La Radio del Recuerdo </span>
+</div>
 
+<script>
+var radio = new Audio("https://radiomixelbosque.volticast.net/radiomixelbosque.mp3");
+
+function playRadio() {
+    radio.play();
+}
+
+function stopRadio() {
+    radio.pause();
+}
+</script>
 </body>
 </html>
